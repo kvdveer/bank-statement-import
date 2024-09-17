@@ -27,4 +27,7 @@
         "views/online_bank_statement_provider.xml",
     ],
     "installable": True,
+    "external_dependencies": {
+        "python": ["odoo_test_helper"],  # Used by unit testst
+    },
 }
