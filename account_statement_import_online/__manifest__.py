@@ -26,5 +26,8 @@
         "views/account_journal.xml",
         "views/online_bank_statement_provider.xml",
     ],
+    "external_dependencies": {
+        "python": ["odoo_test_helper"],
+    },
     "installable": True,
 }
